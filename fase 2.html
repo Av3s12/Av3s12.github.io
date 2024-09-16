@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <title>PetShop</title>
+    <style>
+        .classe_botao
+        {
+        width: 100%;
+        margin-top: 10px;
+        }
+        div
+        {
+        width: 100%;
+        height: 50px;
+        }
+        </style>
+<!-- Cabeçalho    <link rel="stylesheet" href="styles.css"> --> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+        <div>
+            <center><h1>A&M PetShop</h1></center>
+        </div>
+        <hr>
+    <!-- Cabeçalho    </header> -->       
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                    <button onclick="window.open('fase 2.html'); self.close()" class="classe_botao btn btn-primary">Home</button>
+                    <button onclick="func_carousel()" class="classe_botao btn btn-primary">Produtos</button>
+                    <button class="classe_botao btn btn-primary">Servicos</button>
+                    <button class="classe_botao btn btn-primary">Cadastro</button>
+                    <button onclick="func_contatos()" class="classe_botao btn btn-primary">Contato</button>
+                    <button onclick="self.close()" class="classe_botao btn btn-primary">Sair</button>                    
+                </div>
+                <div class="col-sm-04">
+                    <left><img src="PET_PICT.png"></left>                
+                    <footer class="footer">
+                        <div class="footer" style="background-color: white;">
+                        <center>© 2024 PetShop. Todos os direitos reservados.
+                            <a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a>
+                            Contato: contato@A&Mpetshop.com | (21) 1234-5678 
+                        </center>
+                        </div>
+                    </footer>                      
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        function func_contatos()
+         {
+            alert("Contato: contato@A&Mpetshop.com | (21) 1234-5678");
+         }
+    </script>
+    <script>
+         function func_carousel()
+         {
+            window.open('Product_Carousel.html')
+         }
+    </script>          
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+  }
+#logo {
+    color: black;
+  }
+#mainmenu
+{
+   font-family: Arial, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   line-height: 30px;
+   font-weight: bold;
+   text-align: left;
+   letter-spacing: -0.1em;
+}  
+  #mainmenu li{list-style:none; display: display-listitem;}
+  #mainmenu a {color:white}
+  #mainmenu li a:link{color:blue}
+  #mainmenu li a:hover{color:yellow}
+  #mainmenu li a:active{color:gray;}
+  #mainmenu ul{margin:0;}
+  
